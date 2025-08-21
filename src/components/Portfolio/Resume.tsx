@@ -4,7 +4,7 @@ import { Download, FileText, Eye } from "lucide-react";
 const Resume = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/resume.pdf"; // refers to public/resume.pdf
+    link.href = "/Resume.pdf"; // refers to public/resume.pdf
     link.download = "Resume.pdf"; // suggested download filename
     document.body.appendChild(link);
     link.click();
