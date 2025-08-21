@@ -24,7 +24,7 @@ const Projects = () => {
         "A personal portfolio showcases your skills and projects. It highlights your strengths professionally. It helps connect with employers and clients.",
       image: project2,
       technologies: ["HTML5", "TypeScript", "React.js", "Tailwind CSS"],
-      liveUrl: "https://your-portfolio-link.com", // <-- Replace with actual live link
+      liveUrl: "https://personalportfolioaj.netlify.app", // <-- Replace with actual live link
     },
     {
       id: 3,
