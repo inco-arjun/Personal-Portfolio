@@ -53,7 +53,7 @@ const Resume = () => {
           </div>
 
           <p className="text-sm text-muted-foreground mt-4">
-            PDF • 3.9 MB • Updated August 2025
+            PDF • 170 KB • Updated August 2025
           </p>
         </div>
       </div>
