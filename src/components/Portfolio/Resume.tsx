@@ -24,34 +24,30 @@ const Resume = () => {
               <FileText className="w-12 h-12 text-primary" />
             </div>
           </div>
-
           <h3 className="text-3xl font-bold text-foreground mb-4">
             Ready to work together?
           </h3>
           <p className="text-lg text-muted-foreground mb-8">
             Download or view my resume to learn more about my experience, skills, and achievements.
           </p>
-
-          <div className="flex justify-center gap-6">
+          <div className="flex flex-col sm:flex-row justify-center gap-4 sm:gap-6">
             <Button
               size="lg"
-              className="w-56 bg-gradient-primary hover:shadow-glow transition-all duration-300 transform hover:scale-105 text-lg px-8 py-3"
+              className="w-full sm:w-56 bg-gradient-primary hover:shadow-glow transition-all duration-300 transform hover:scale-105 text-lg px-8 py-3"
               onClick={handleDownload}
             >
               <Download className="w-5 h-5 mr-3" />
               Download Resume
             </Button>
-
             <Button
               size="lg"
-              className="w-56 bg-gradient-primary hover:shadow-glow transition-all duration-300 transform hover:scale-105 text-lg px-8 py-3"
+              className="w-full sm:w-56 bg-gradient-primary hover:shadow-glow transition-all duration-300 transform hover:scale-105 text-lg px-8 py-3"
               onClick={handleView}
             >
               <Eye className="w-5 h-5 mr-3" />
               View Resume
             </Button>
           </div>
-
           <p className="text-sm text-muted-foreground mt-4">
             PDF • 170 KB • Updated August 2025
           </p>
